@@ -1,6 +1,6 @@
 package edu.tekwil.course.lesson4;
 
-public class Item1 {
+public class Variables {
     public static void main (String[] args) {
         long a = 7811080815L;
         int b= 55235358;
