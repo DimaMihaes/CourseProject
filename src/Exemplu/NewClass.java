@@ -1,14 +1,13 @@
 package Exemplu;
 
-import edu.tekwil.course.ClassInPackage;
+
 
 public class NewClass {
     public static void main (String[] args) {
-       ClassInPackage classInPackage=new ClassInPackage();
-       ClassInPackage.test();
-         for (String arg : args ){
-             System.out.println(arg);
-         }
-
+       int i=30;
+       int b;
+       b= i-- + --i;
+       System.out.println(b);
     }
-}
+    }
+
