@@ -1,4 +1,4 @@
-package edu.tekwil.course.lesson4;
+package lesson4;
 
 public class MinutesConverter {
     public static void main (String[] args){

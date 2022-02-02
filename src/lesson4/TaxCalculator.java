@@ -1,4 +1,4 @@
-package edu.tekwil.course.lesson4;
+package lesson4;
 
 import java.util.Scanner;
 

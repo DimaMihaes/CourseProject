@@ -1,3 +1,5 @@
+package Exemplu;
+
 import edu.tekwil.course.ClassInPackage;
 
 public class NewClass {
