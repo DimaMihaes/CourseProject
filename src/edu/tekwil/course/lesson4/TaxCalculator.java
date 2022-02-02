@@ -17,7 +17,7 @@ public class TaxCalculator {
 
         System.out.println("Introduceti cantitatea: ");
         Scanner c=new Scanner(System.in);
-        int quantity = c.nextInt(); 
+        int quantity = c.nextInt();
 
         a.close();
         b.close();
