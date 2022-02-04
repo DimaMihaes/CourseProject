@@ -1,18 +1,19 @@
 package lesson5homework;
-import java.util.Scanner ;
+
+import java.util.Scanner;
 
 
 public class OddEven {
 
-        public static void main (String[] args){
+    public static void main(String[] args) {
 
-            int number ;
+        int number;
 
         System.out.print("Insert number : ");
         Scanner a = new Scanner(System.in);
         number = a.nextInt();
 
-        if ( number %2 == 0)
+        if (number % 2 == 0)
             System.out.println("Number is odd");
 
         else

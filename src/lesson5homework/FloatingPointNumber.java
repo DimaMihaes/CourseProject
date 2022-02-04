@@ -1,28 +1,29 @@
 package lesson5homework;
+
 import java.util.Scanner;
 
-    public class FloatingPointNumber {
-    public static void main (String[] args) {
+public class FloatingPointNumber {
+    public static void main(String[] args) {
 
         float number;
 
         System.out.print("Introduceti numarul: ");
-        Scanner a=new Scanner(System.in);
+        Scanner a = new Scanner(System.in);
         number = a.nextFloat();
 
-            if (number > 0 && number <1)
+        if (number > 0 && number < 1)
             System.out.println("Numarul este mic , pozitiv");
 
-            else if (number > 1000000)
+        else if (number > 1000000)
             System.out.println("Numarul este mare , pozitiv.");
 
-            else if (number >=1 && number <= 1000000)
+        else if (number >= 1 && number <= 1000000)
             System.out.println("Numarul este pozitiv");
 
-            else if (number <0 )
+        else if (number < 0)
             System.out.println("Numarul este negativ");
 
-            else
+        else
             System.out.println("Numarul este zero");
 
         a.close();
