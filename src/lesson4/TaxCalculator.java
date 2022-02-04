@@ -4,14 +4,17 @@ import java.util.Scanner;
 
 public class TaxCalculator {
     public static void main (String[] args) {
+             double pret ;
+             double tax;
+             double total;
 
-        System.out.print("Introduceti pretul: ");
+        System.out.print("Introduceti pretul:" );
         Scanner a=new Scanner(System.in);
-        double pret = a.nextDouble() ;
+         pret = a.nextDouble() ;
 
 
         System.out.print("Introduceti taxa:" );
-        double tax= a.nextDouble() ;
+        tax= a.nextDouble() ;
 
 
         System.out.print("Introduceti cantitatea: ");
@@ -19,7 +22,6 @@ public class TaxCalculator {
 
         a.close();
 
-        double total ;
         total= pret * tax * quantity ;
         System.out.println("Total cost with tax is: " +total);
 
