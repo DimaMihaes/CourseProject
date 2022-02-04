@@ -1,7 +1,7 @@
 package lesson5homework;
 import java.util.Scanner;
 
-public class Item2 {
+    public class Item2 {
     public static void main (String[] args){
 
         int lung , lat , lung2 ,lat2 , aria1 , aria2;
@@ -11,13 +11,13 @@ public class Item2 {
         lung = a.nextInt();
         lat = a.nextInt();
         aria1 = lung * lat ;
-        System.out.println( "Aria primului dreptunghi: " +aria1);
+        System.out.println( "Aria primului dreptunghi: " +aria1 +" metri patrati");
 
         System.out.print("Introduceti latimea si lungimea al doilea dreptunghi: ");
         lung2 = a.nextInt();
         lat2 = a.nextInt();
         aria2 = lung2 * lat2 ;
-        System.out.println( "Aria la al doilea  dreptunghi: " +aria2);
+        System.out.println( "Aria la al doilea  dreptunghi: " +aria2 +" metri patrati");
 
         if (aria1 > aria2 ) {
             System.out.println("Primul dreptunghi estea mai mare ");
