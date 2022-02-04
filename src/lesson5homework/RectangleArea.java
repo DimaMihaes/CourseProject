@@ -1,7 +1,7 @@
 package lesson5homework;
 import java.util.Scanner;
 
-    public class Item2 {
+    public class RectangleArea {
     public static void main (String[] args){
 
         int lung , lat , lung2 ,lat2 , aria1 , aria2;

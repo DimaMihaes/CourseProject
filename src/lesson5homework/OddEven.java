@@ -2,7 +2,7 @@ package lesson5homework;
 import java.util.Scanner ;
 
 
-public class Item1 {
+public class OddEven {
 
         public static void main (String[] args){
 

@@ -1,7 +1,7 @@
 package lesson5homework;
 import java.util.Scanner;
 
-    public class item3 {
+    public class FloatingPointNumber {
     public static void main (String[] args) {
 
         float number;
