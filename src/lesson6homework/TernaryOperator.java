@@ -14,7 +14,7 @@ public class TernaryOperator {
 
         color = (colorCode == 100) ? "Yellow" : ((colorCode == 101) ? "Green"
                 : ((colorCode == 102) ? "Red" : ((colorCode == 103) ? "Blue": "Invalid")));
-        
+
         System.out.println("Your color is " + color);
 
         a.close();
