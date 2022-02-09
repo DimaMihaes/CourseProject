@@ -9,7 +9,7 @@ public class SumOfTwoNumber {
         char answer;
         Scanner a = new Scanner(System.in);
         do {
-            System.out.println("Insert two number: ");
+            System.out.print("Insert two number: ");
             num1 = a.nextInt();
             num2 = a.nextInt();
             sum = num1 + num2;
