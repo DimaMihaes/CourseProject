@@ -1,4 +1,4 @@
-package lesson9homework;
+package lesson9homework.character;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ public class FindCharacter {
     public static void main(String args[])
     {
         Scanner a= new Scanner(System.in);
-        System.out.println("Enter the phrase: ");
+        System.out.print("Enter the word: ");
         String input = "";
         input = a.next();
 
@@ -20,5 +20,6 @@ public class FindCharacter {
         }
 
         System.out.println("The Character '"+search+"' appears "+count+" times.");
+        a.close();
     }
 }

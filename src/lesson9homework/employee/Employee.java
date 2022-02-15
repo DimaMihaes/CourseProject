@@ -1,4 +1,4 @@
-package lesson9homework;
+package lesson9homework.employee;
 
 public class Employee {
     public int yearOfJoining, salary;

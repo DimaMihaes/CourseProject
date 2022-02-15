@@ -1,4 +1,4 @@
-package lesson9homework;
+package lesson9homework.area;
 
 import java.util.Scanner;
 
@@ -25,10 +25,7 @@ public class Area {
         a.close();
     }
 
-    public static void main(String[] args) {
-        Area x = new Area(args.length, args.length);
-        x.getArea();
 
 
     }
-}
+
