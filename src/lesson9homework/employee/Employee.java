@@ -15,5 +15,6 @@ public class Employee {
     public void display() {
         System.out.println("Name \t Year of Joining \t Salary \t Address");
         System.out.println("" + name + "\t\t" + yearOfJoining + "\t\t\t\t" + salary + "\t\t" + address);
+
     }
 }
